@@ -5,7 +5,7 @@ use crate::peripherals::{Peripherals, DSP as Display};
 use crate::utils::input_line;
 use crate::keyboard::Keyboard;
 use crate::console::Console;
-use chess::{Board, Square, Color, ChessMove, BoardStatus};
+use super::chess::{Board, Square, Color, ChessMove, BoardStatus};
 use arrayvec::{ArrayString, ArrayVec};
 use core::fmt::Write;
 
